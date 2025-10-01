@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.SoftMono" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/sm_primary</item>
+        <item name="colorPrimaryDark">@color/sm_primary</item>
+        <item name="colorAccent">@color/sm_accent</item>
+        <item name="android:statusBarColor">@color/sm_primary</item>
+        <item name="android:navigationBarColor">@color/sm_background</item>
+        <item name="android:textColorPrimary">@color/sm_text</item>
+        <item name="android:colorBackground">@color/sm_background</item>
+        <item name="android:windowBackground">@color/sm_background</item>
+        <item name="android:listDivider">@color/sm_divider</item>
+        <!-- Use system default font to avoid missing font resource -->
+        <item name="materialButtonStyle">@style/SoftMono.Button</item>
+        <item name="floatingActionButtonStyle">@style/SoftMono.FAB</item>
+        <item name="toolbarStyle">@style/SoftMono.Toolbar</item>
+    </style>
+
+    <style name="Theme_SoftMono_Launch">
+        <item name="android:windowBackground">@color/sm_background</item>
+    </style>
+
+    <style name="SoftMono.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/sm_surface</item>
+        <item name="titleTextColor">@color/sm_text</item>
+        <item name="subtitleTextColor">@color/sm_secondary</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+
+    <style name="SoftMono.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@color/sm_primary</item>
+        <item name="android:textColor">@color/sm_surface</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:minHeight">44dp</item>
+    </style>
+
+    <style name="SoftMono.FAB" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">@color/sm_primary</item>
+        <item name="tint">@color/sm_surface</item>
+    </style>
+
+    <style name="SoftMono.TextInput" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/sm_surface</item>
+        <item name="boxStrokeColor">@color/sm_secondary</item>
+        <item name="android:textColor">@color/sm_text</item>
+    </style>
+</resources>

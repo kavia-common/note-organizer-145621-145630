@@ -1,0 +1,4 @@
+<resources>
+    <item name="navigation_drawer_open" type="id"/>
+    <item name="navigation_drawer_close" type="id"/>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <!-- Soft Mono palette -->
+    <color name="sm_primary">#6B7280</color>
+    <color name="sm_secondary">#9CA3AF</color>
+    <color name="sm_success">#10B981</color>
+    <color name="sm_error">#EF4444</color>
+    <color name="sm_background">#F9FAFB</color>
+    <color name="sm_surface">#FFFFFF</color>
+    <color name="sm_text">#111827</color>
+    <color name="sm_divider">#E5E7EB</color>
+    <color name="sm_accent">#6B7280</color>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="category_general">General</string>
+    <string name="category_personal">Personal</string>
+    <string name="category_work">Work</string>
+</resources>
